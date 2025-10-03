@@ -1,0 +1,120 @@
+.skills {
+  margin-bottom: 40px;
+}
+
+.section-title {
+  font-size: 1.4rem;
+  font-weight: 600;
+  margin-bottom: 20px;
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  color: #ecf0f1;
+  border-bottom: 2px solid #3498db;
+  padding-bottom: 8px;
+  
+  @media print {
+    color: #2c3e50 !important;
+    border-bottom-color: #3498db !important;
+  }
+  
+  i {
+    color: #3498db;
+    font-size: 1.2rem;
+    
+    @media print {
+      color: #3498db !important;
+    }
+  }
+}
+
+.skill-category {
+  margin-bottom: 25px;
+  
+  &:last-child {
+    margin-bottom: 0;
+  }
+  
+  h4 {
+    font-size: 1.1rem;
+    font-weight: 500;
+    margin-bottom: 12px;
+    color: #ecf0f1;
+    
+    @media print {
+      color: #2c3e50 !important;
+    }
+  }
+}
+
+.skill-tags {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 8px;
+}
+
+.skill-tag {
+  font-size: 0.8rem;
+  padding: 6px 12px;
+  border-radius: 16px;
+  font-weight: 500;
+  transition: all 0.3s ease;
+  cursor: default;
+  
+  // Default style (beginner)
+  background: rgba(149, 165, 166, 0.2);
+  color: #95a5a6;
+  border: 1px solid rgba(149, 165, 166, 0.3);
+  
+  &.intermediate {
+    background: rgba(241, 196, 15, 0.2);
+    color: #f1c40f;
+    border: 1px solid rgba(241, 196, 15, 0.3);
+    
+    @media print {
+      background: #fff8e1 !important;
+      color: #f57f17 !important;
+      border-color: #f57f17 !important;
+    }
+  }
+  
+  &.advanced {
+    background: rgba(230, 126, 34, 0.2);
+    color: #e67e22;
+    border: 1px solid rgba(230, 126, 34, 0.3);
+    
+    @media print {
+      background: #fff3e0 !important;
+      color: #e65100 !important;
+      border-color: #e65100 !important;
+    }
+  }
+  
+  &.expert {
+    background: rgba(46, 204, 113, 0.2);
+    color: #2ecc71;
+    border: 1px solid rgba(46, 204, 113, 0.3);
+    
+    @media print {
+      background: #e8f5e8 !important;
+      color: #2e7d32 !important;
+      border-color: #2e7d32 !important;
+    }
+  }
+  
+  @media print {
+    background: #f8f9fa !important;
+    color: #666 !important;
+    border: 1px solid #dee2e6 !important;
+  }
+  
+  &:hover {
+    transform: translateY(-1px);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    
+    @media print {
+      transform: none !important;
+      box-shadow: none !important;
+    }
+  }
+}
