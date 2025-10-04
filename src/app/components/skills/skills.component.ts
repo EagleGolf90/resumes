@@ -12,6 +12,13 @@ import { CommonModule } from '@angular/common';
         Technical Skills
       </h3>
       <div class="section-content">
+        <div class="skill-tags">
+          <span class="skill-tag intermediate">Intermediate</span>
+          <span class="skill-tag advanced">Advanced</span>
+          <span class="skill-tag expert">Expert</span>
+        </div><br/>
+      </div>
+      <div class="section-content">
         <div class="skill-category" *ngFor="let category of skillCategories">
           <h4>{{ category.name }}</h4>
           <div class="skill-tags">
