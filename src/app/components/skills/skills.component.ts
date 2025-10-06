@@ -68,7 +68,8 @@ export class SkillsComponent {
       skills: [
         { name: 'SQL Server', level: 'advanced' },
         { name: 'MySQL', level: 'advanced' },
-        { name: 'MongoDB', level: 'intermediate' }
+        { name: 'MongoDB', level: 'intermediate' },
+        { name: 'Oracle', level: 'Advanced' }
       ]
     },
     {
@@ -76,6 +77,7 @@ export class SkillsComponent {
       skills: [
         { name: 'Git', level: 'expert' },
         { name: 'GitHub', level: 'expert' },
+        { name: 'GitLab', level: 'intermediate' },
         { name: 'AWS', level: 'intermediate' },
         { name: 'Azure', level: 'intermediate' }
       ]
