@@ -44,14 +44,13 @@ export class ExperienceComponent {
       location: 'Louisville, KY',
       period: '2000 - Present',
       achievements: [
-        'Developed secure, scalable web applications using C# and .NET frameworks, emphasizing robust coding practices to deliver reliable, business-critical functions while minimizing security vulnerabilities.',
-        'Designed and maintained a mobile-responsive UI/UX using WordPress and custom PHP solutions, ensuring performance, accessibility, and cross-device compatibility.',
-        'Integrated Angular front-end components with ASP.NET Core Web API to enhance responsiveness and adhere to modern API integration standards, supporting modular and reusable design principles.',
-        'Implemented accessibility-first design to ensure mobile responsiveness and cross-device compatibility, thereby boosting user engagement and satisfaction.',
-        'Directed QA and troubleshooting initiatives across the software development lifecycle in collaboration with QA teams to resolve performance and security challenges.',
-        'Evaluated emerging technologies to enhance platform reliability, streamline system performance, and reduce downtime, supporting continuous improvement in engineering practices.',
-        'Provided technical expertise for backend optimizations and platform enhancements that improved system maintainability and supported scalable business growth.',
-        'Designed and maintained mobile-responsive UI/UX solutions using WordPress and custom PHP, enhancing overall performance and accessibility across devices.'
+        'Developed secure, scalable web applications using C# and .NET frameworks, emphasizing robust coding practices and full software development lifecycle execution to support business-critical functions.',
+        'Designed and maintained a mobile-responsive UI/UX using WordPress and custom PHP solutions, ensuring performance, accessibility, and cross-device compatibility for enhanced user engagement.',
+        'Integrated Angular front-end components with ASP.NET Core Web API, delivering modular and reusable design solutions that align with production web application standards.',
+        'Implemented accessibility-first design principles to optimize user-facing features and interface responsiveness, reinforcing compliance with industry best practices.',
+        'Directed QA and troubleshooting initiatives throughout the software development lifecycle in collaboration with QA teams to resolve performance and security challenges.',
+        'Evaluated emerging technologies to enhance platform reliability and streamline system performance, supporting continuous improve- ments in software engineering practices.',
+        'Provided technical expertise for backend optimizations and platform enhancements, facilitating the integration of robust back-end systems with intuitive front-end experiences.'
       ],
       technologies: ['C#', 'Angular', 'API', 'PHP', 'SQL Server', 'MySQL', 'WordPress', 'HTML/CSS', 'JavaScript', 'jQuery', 'Github', 'Bootstrap']
     },
@@ -61,17 +60,16 @@ export class ExperienceComponent {
       location: 'Salt Lake City, UT',
       period: '2022 - 2025',
       achievements: [
-        'Developed cloud-ready .NET Core APIs within an Agile Scrum framework using C#, SQL Server, and Azure App Services, streamlining the software development lifecycle and supporting scalable backend architecture.',
-        'Utilized Splunk for real-time observability and performance tuning in distributed environments, ensuring system reliability and facilitating effective incident response.',
-        'Constructed scalable RESTful APIs in C# on Azure, leveraging SQL Server with Entity Framework and Dapper to optimize backend performance and data integration.',
-        'Engineered robust API integrations with SQL Server and Azure Functions to streamline backend logic and support high-performance application requirements, adhering to security best practices.',
-        'Executed comprehensive debugging efforts throughout the development lifecycle using Azure DevOps to optimize performance and maintain system stability.',
-        'Implemented unit tests to ensure system integrity and preserve functionality, aligning with Azure Pipelines for continuous integration and QA standards.',
-        'Fostered cross-functional collaboration to ensure API implementations and system designs met enterprise standards and business requirements, partnering with internal teams effectively across Azure-hosted environments.',
-        'Authored advanced SQL queries and optimized stored procedures to drive efficient, data-driven performance with a focus on improving application responsiveness in Azure SQL Database.',
-        'Refactored legacy code using SOLID principles, reducing bug rates by 30% and enhancing overall application performance while supporting technical excellence in cloud-native deployments.',
+        'Utilized Splunk for real-time observability and performance tuning in distributed environments, maintaining system reliability and supporting code quality standards.',
+        'Constructed scalable RESTful APIs in C# on Azure, leveraging SQL Server with Entity Framework and Dapper to optimize backend performance and support production web applications.',
+        'Engineered robust API integrations with SQL Server and Azure Functions to streamline backend logic and support high-performance application requirements while adhering to security best practices.',
+        'Executed comprehensive debugging efforts throughout the development lifecycle using Azure DevOps to optimize performance and ensure system stability.',
+        'Implemented unit tests aligned with Azure Pipelines for continuous integration, sustaining system integrity and facilitating rigorous quality assurance.',
+        'Fostered cross-functional collaboration to ensure API implementations and system designs met enterprise standards, effectively partnering with product and design teams.',
+        'Authored advanced SQL queries and optimized stored procedures to drive efficient, data-driven performance with a focus on improving application responsiveness in a cloud environment.',
+        'Refactored legacy code using SOLID principles, reducing bug rates by 30% and enhancing overall application performance in support of cloud-native deployments.',
         'Managed GitHub repositories and integrated CI workflows with Azure DevOps, streamlining development and deployment processes in line with modern DevOps practices.',
-        'Collaborated with QA teams to troubleshoot issues and refine testing strategies, ensuring successful production releases and robust support for enterprise operations.'
+        'Collaborated with QA teams to identify issues and refine testing strategies, ensuring robust support for successful production releases and maintaining high-quality user experiences.'
       ],
       technologies: ['C#', 'API', 'Azure', 'AWS', 'GitHub', 'JIRA', 'SQL Server', 'HTML/CSS', 'JavaScript']
     },
@@ -116,7 +114,7 @@ export class ExperienceComponent {
       location: 'New Albany, IN',
       period: '1994 - 1999',
       achievements: [
-        'Developed software solutions to enhance production accuracy, streamline inventory control, and improve Kronos reporting, resulting in more efficient operations.',
+        'Developed software solutions using ASP.NET Core and T-SQL to enhance production accuracy, streamline inventory control, and improve Kronos reporting, resulting in more efficient operations.',
         'Designed and maintained EDI transactions on AS/400 to facilitate supplier communications, improving data exchange efficiency.',
         'Created merge forms using OptioDCS for spool and data file automation, leading to faster document processing and reduced manual errors.',
         'Built MS Access tools for Quality Control graphs, CIM tracking, and job packet generation, enhancing data visualization and operational tracking.',

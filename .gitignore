@@ -105,5 +105,4 @@ Thumbs.db
 
 .github/*
 .vscode/*
-*.json
 .angular/
